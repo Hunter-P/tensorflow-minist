@@ -74,12 +74,12 @@ class LoadData(object):
         return data
 
 
-file1 = r'D:\机器学习资料汇总\手写数字识别数据\数据2\train-images.idx3-ubyte'
-file2 = r'D:\机器学习资料汇总\手写数字识别数据\数据2\train-labels.idx1-ubyte'
+file1 = r'train-images.idx3-ubyte'
+file2 = r'train-labels.idx1-ubyte'
 trainingData = LoadData(file1, file2)
 training_data = trainingData.loadData()
-file3 = r'D:\机器学习资料汇总\手写数字识别数据\数据2\t10k-images.idx3-ubyte'
-file4 = r'D:\机器学习资料汇总\手写数字识别数据\数据2\t10k-labels.idx1-ubyte'
+file3 = r't10k-images.idx3-ubyte'
+file4 = r't10k-labels.idx1-ubyte'
 testData = LoadData(file3, file4)
 test_data = testData.loadData()
 X_train = [i[0] for i in training_data]
