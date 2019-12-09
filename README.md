@@ -3,6 +3,7 @@
 * cnn
 * nn（BP神经网络）
 * softmax regression
+* bi-lstm
 
 数据集下载：**http://yann.lecun.com/exdb/mnist/**
 
