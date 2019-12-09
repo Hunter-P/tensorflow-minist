@@ -1,5 +1,5 @@
 # tensorflow-minist
-基于tensorflow实现的手写数字识别，使用的方法有三种：
+基于tensorflow实现的手写数字识别，使用的方法有4种：
 * cnn
 * nn（BP神经网络）
 * softmax regression
